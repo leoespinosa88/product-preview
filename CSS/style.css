@@ -1,0 +1,125 @@
+:root{
+--Dark_cyan: hsl(158, 36%, 37%);
+--Cream: hsl(30, 38%, 92%);
+--Very_dark_blue: hsl(212, 21%, 14%);
+--Dark_grayish_blue: hsl(228, 12%, 48%);
+--White: hsl(0, 0%, 100%);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: var(--Cream);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flex--container{
+    height: 380px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 80px auto;
+
+    display: flex;
+    background-color: #fff;
+    text-align: left;
+}
+
+.flex--image{
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.flex--descption{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.perfume{
+    color: var(--Dark_grayish_blue);
+
+    font-size: 10px;
+    text-transform:uppercase;
+    letter-spacing: 6px;
+
+    margin: 15px 15px 15px 0;
+}
+
+.flex--title{
+    margin-bottom: 20px;
+    line-height: 1;
+
+    
+    width: 150px;
+    text-align: start;
+    overflow-wrap: break-word;
+    
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+
+}
+
+.flex--paragraph{
+    color: var(--Dark_grayish_blue);
+    font-size: 11px;
+    overflow-wrap: break-word;
+
+    width: 180px;
+
+    line-height: 1.5;
+    text-align: start;
+}
+
+.flex--container--price{
+    position: relative;
+    top: 250px;
+    right: 180px;
+    
+}
+
+
+.price{
+    color: var(--Dark_cyan);
+    font-family: 'Fraunces';
+    font-size: 25px;
+
+    font-weight: bold;
+}
+
+.price1{
+    position: relative;
+    left: 109px;
+    bottom: 21px;
+
+    font-size: 12px;
+    text-decoration: line-through;
+
+    color: var(--Dark_grayish_blue);
+}
+
+.button{
+    position: relative;
+    left: 730px;
+    bottom: 150px;
+
+    
+    background-color: var(--Dark_cyan);
+
+    border-radius: 5px;
+
+    width: 190px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.btn--green{
+    color: #fff;
+    text-decoration: none;
+
+    font-size: 10px;
+    font-weight: bold;
+}
